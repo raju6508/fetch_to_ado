@@ -1,0 +1,10 @@
+USE my_database;
+
+CREATE TABLE cn_numbers (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+    cn_number VARCHAR(100) NOT NULL
+);
+
+INSERT INTO cn_numbers (cn_number) VALUES ('CN001'), ('CN002'), ('CN003');
+
+select * from my_database.cn_numbers;
